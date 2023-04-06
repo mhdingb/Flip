@@ -18,10 +18,10 @@
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
     <div id="center">
-      <canvas id="unity-canvas" width=640 height=360 tabindex="-1" style="width: 640px; height: 360px; background: #FFFFFF; padding-left: 0; padding-right: 0; margin-left: auto; margin-right: auto; display: block; box-shadow: 0px 0px 8px white; margin-top: 5%;"></canvas>
+      <canvas id="unity-canvas" width=640 height=360 tabindex="-1" style="width: 640px; height: 360px; background: #FFFFFF; padding-left: 0; padding-right: 0; margin-left: auto; margin-right: auto; display: block; margin-top: 5%;"></canvas>
      </div>
     
-    <script src="Build/1lv1.loader.js"></script>
+    <script src="Build/1lv2.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -39,9 +39,9 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/1lv1.data",
-        frameworkUrl: "Build/1lv1.framework.js",
-        codeUrl: "Build/1lv1.wasm",
+        dataUrl: "Build/1lv2.data",
+        frameworkUrl: "Build/1lv2.framework.js",
+        codeUrl: "Build/1lv2.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Doubloon Studios",
         productName: "Flip",
