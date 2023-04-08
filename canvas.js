@@ -1,5 +1,5 @@
-const canvas = document.getElementById('unity-canvas');
-const ctx = canvas.getContext2D();
+const unitycanvas = document.getElementById('unity-canvas');
+const ctx = unitycanvas.getContext('2d');
 var size = 0;
 
 if (window.innerHeight < window.innerWidth) {
