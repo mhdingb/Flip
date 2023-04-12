@@ -27,7 +27,7 @@
 	    <p style="display: block; font-size: 16px; font-family: SpaceMono; color: white; clear:both;">(May have long load times)</p>
      </div>
     
-    <script src="Build/release v2.loader.js"></script>
+    <script src="Build/release v3.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -45,9 +45,9 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/release v2.data",
-        frameworkUrl: "Build/release v2.framework.js",
-        codeUrl: "Build/release v2.wasm",
+        dataUrl: "Build/release v3.data",
+        frameworkUrl: "Build/release v3.framework.js",
+        codeUrl: "Build/release v3.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Doubloon Studios",
         productName: "Flip",
